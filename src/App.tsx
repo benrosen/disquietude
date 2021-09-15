@@ -96,7 +96,7 @@ const App = () => {
           textAlign: "center",
         }}
       >
-        The Quiet Year
+        Disquietude
       </div>
       <div style={{ marginTop: "1rem" }}>
         <div style={{ textAlign: "center" }}>
