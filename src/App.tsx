@@ -85,7 +85,14 @@ const App = () => {
   const year = useYear();
   const week = useWeek(count, year);
   return (
-    <Fragment>
+    <div
+      style={{
+        justifyContent: "center",
+        display: "flex",
+        flexDirection: "column",
+        height: "100vh",
+      }}
+    >
       <div
         style={{
           fontFamily: "Gentium Book Basic",
@@ -98,41 +105,40 @@ const App = () => {
       >
         Disquietude
       </div>
-      <div style={{ marginTop: "1rem" }}>
-        <div style={{ textAlign: "center" }}>
-          <div
-            style={{
-              fontFamily: "Gentium Book Basic",
-              fontSize: "1.5rem",
-              fontWeight: "bold",
-            }}
-          >{`~ Week ${count + 1} ~`}</div>
-        </div>
-        <div style={{ padding: "2rem", textAlign: "center" }}>
-          {week.map((prompt, index) => {
-            return (
-              <Fragment key={index}>
-                <div>{prompt}</div>
-                {index < week.length - 1 ? (
-                  <div
-                    style={{
-                      fontFamily: "Gentium Book Basic",
-                      fontStyle: "italic",
-                      fontWeight: "bold",
-                      padding: "1rem",
-                    }}
-                  >
-                    or
-                  </div>
-                ) : null}
-              </Fragment>
-            );
-          })}
-        </div>
+      <div style={{ textAlign: "center" }}>
+        <div
+          style={{
+            fontFamily: "Gentium Book Basic",
+            fontSize: "1.5rem",
+            fontWeight: "bold",
+          }}
+        >{`~ Week ${count + 1} ~`}</div>
+      </div>
+      <div style={{ padding: "2rem", textAlign: "center" }}>
+        {week.map((prompt, index) => {
+          return (
+            <Fragment key={index}>
+              <div>{prompt}</div>
+              {index < week.length - 1 ? (
+                <div
+                  style={{
+                    fontFamily: "Gentium Book Basic",
+                    fontStyle: "italic",
+                    fontWeight: "bold",
+                    padding: "1rem",
+                  }}
+                >
+                  or
+                </div>
+              ) : null}
+            </Fragment>
+          );
+        })}
       </div>
       <div style={{ textAlign: "center" }}>
         <button
           style={{
+            marginBottom: "1rem",
             padding: ".5rem 1rem",
             fontFamily: "Gentium Book Basic",
             fontSize: "1rem",
@@ -142,7 +148,7 @@ const App = () => {
           Next
         </button>
       </div>
-    </Fragment>
+    </div>
   );
 };
 
