@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/disquietude/static/css/main.d8da475d.chunk.css",
+    "main.js": "/disquietude/static/js/main.c4449ac4.chunk.js",
+    "main.js.map": "/disquietude/static/js/main.c4449ac4.chunk.js.map",
+    "runtime-main.js": "/disquietude/static/js/runtime-main.6649177e.js",
+    "runtime-main.js.map": "/disquietude/static/js/runtime-main.6649177e.js.map",
+    "static/js/2.7612ec29.chunk.js": "/disquietude/static/js/2.7612ec29.chunk.js",
+    "static/js/2.7612ec29.chunk.js.map": "/disquietude/static/js/2.7612ec29.chunk.js.map",
+    "static/js/3.be63d2fa.chunk.js": "/disquietude/static/js/3.be63d2fa.chunk.js",
+    "static/js/3.be63d2fa.chunk.js.map": "/disquietude/static/js/3.be63d2fa.chunk.js.map",
+    "index.html": "/disquietude/index.html",
+    "static/css/main.d8da475d.chunk.css.map": "/disquietude/static/css/main.d8da475d.chunk.css.map",
+    "static/js/2.7612ec29.chunk.js.LICENSE.txt": "/disquietude/static/js/2.7612ec29.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6649177e.js",
+    "static/js/2.7612ec29.chunk.js",
+    "static/css/main.d8da475d.chunk.css",
+    "static/js/main.c4449ac4.chunk.js"
+  ]
+}
