@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.1.9",
+    "@types/seedrandom": "^3.0.1",
     "gh-pages": "^3.2.3"
   }
 }
