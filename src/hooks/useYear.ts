@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-
 import { Year } from "../types/Year";
 import data from "../data/year.json";
 import shuffleSeason from "../functions/shuffleSeason";
+import useSeed from "./useSeed";
 
 export default (): Year => {
+  useSeed();
   const [year, setYear] = useState<Year>(null);
   useEffect(() => {
     setYear(() => {
