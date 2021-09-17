@@ -8,7 +8,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="/disquietude">
       <Switch>
         <Route path="/:seed?">
           <App />
