@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/disquietude/static/css/main.4a4137e4.chunk.css",
-    "main.js": "/disquietude/static/js/main.b2d7b46b.chunk.js",
-    "main.js.map": "/disquietude/static/js/main.b2d7b46b.chunk.js.map",
+    "main.js": "/disquietude/static/js/main.bf0a94b9.chunk.js",
+    "main.js.map": "/disquietude/static/js/main.bf0a94b9.chunk.js.map",
     "runtime-main.js": "/disquietude/static/js/runtime-main.a23140b6.js",
     "runtime-main.js.map": "/disquietude/static/js/runtime-main.a23140b6.js.map",
     "static/js/2.6bb75081.chunk.js": "/disquietude/static/js/2.6bb75081.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a23140b6.js",
     "static/js/2.6bb75081.chunk.js",
     "static/css/main.4a4137e4.chunk.css",
-    "static/js/main.b2d7b46b.chunk.js"
+    "static/js/main.bf0a94b9.chunk.js"
   ]
 }
