@@ -12,12 +12,18 @@ import useYear from "./hooks/useYear";
 export default () => {
   useSeed();
   const [count, increment] = useIncrement();
-  const year = useYear();
+  const [year, yearLength] = useYear();
   const week = useWeek(count, year);
   return (
     <Container>
       <Title>Disquietude</Title>
-      <Subtitle>{`~ Week ${count + 1} ~`}</Subtitle>
+      <Subtitle>
+        {
+          ["\u2665", "\u2666", "\u2663", "\u2660"][
+            Math.floor((count / yearLength) * 4)
+          ]
+        }
+      </Subtitle>
       <div style={{ padding: "2rem" }}>
         {week &&
           week.map((prompt, index) => (
