@@ -24,7 +24,7 @@ export default () => {
           ]
         }
       </Subtitle>
-      <div style={{ padding: "2rem" }}>
+      <div style={{ fontSize: "1.5rem", padding: "2rem" }}>
         {week &&
           week.map((prompt, index) => (
             <Fragment key={index}>

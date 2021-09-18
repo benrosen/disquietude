@@ -8,10 +8,14 @@ export default ({
   <div>
     <button
       style={{
-        marginBottom: "1rem",
-        padding: ".5rem 1rem",
+        backgroundColor: "#2e1308",
+        border: "1px solid #fdf9ee",
+        borderRadius: ".25rem",
+        color: "#fdf9ee",
+        margin: "1.5rem 0",
+        padding: "1.5rem 2.5rem",
         fontFamily: "serif",
-        fontSize: "1rem",
+        fontSize: "1.5rem",
       }}
       onClick={onClick}
     >
