@@ -4,7 +4,7 @@ import { Year } from "../types/Year";
 import data from "../data/year.json";
 import useSeasonLoader from "./useSeasonLoader";
 
-export default (): Year => {
+export default (): [Year, number] => {
   const [year, setYear] = useState<Year>(null);
   const loadSeason = useSeasonLoader();
   useEffect(() => {
@@ -20,5 +20,13 @@ export default (): Year => {
         : null;
     });
   }, []);
-  return year;
+  return [
+    year,
+    year
+      ? year.spring.length +
+        year.summer.length +
+        year.fall.length +
+        year.winter.length
+      : 0,
+  ];
 };
