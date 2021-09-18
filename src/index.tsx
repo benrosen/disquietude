@@ -1,18 +1,17 @@
 import "./index.css";
 
+import { HashRouter, Route, Switch } from "react-router-dom";
+
 import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter basename="/disquietude">
       <Switch>
-        <Route path="/:seed?">
-          <App />
-        </Route>
+        <Route component={App} path={["/fleeting/:seed?", "/:seed?"]} />
       </Switch>
     </HashRouter>
   </React.StrictMode>,
